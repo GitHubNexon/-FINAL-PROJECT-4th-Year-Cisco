@@ -93,3 +93,26 @@ Switch 3
 190.60.14.0
 
 
+
+
+line console O
+password May 
+login
+exit
+line vty 0 4
+password May 
+login
+exit
+enable secret 2002 
+service password-encryption
+
+
+
+
+Network Configuration Documentation
+Project: Router DHCP, VLAN, OSPF, and VLSM Setup
+Prepared By: PULMANO, JOHN MARK LILIODate: May 28, 2002
+
+
+
+
